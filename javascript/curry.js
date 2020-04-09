@@ -1,6 +1,6 @@
 # 20200409 Scala 같은 커링 적용해보기
 ---
-```
+```javascript
 // Test the auto currying function
 function curry(fn) {
 	return (function next(fn, initLength, ...args) {
